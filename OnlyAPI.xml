@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Тесты API">
+    <test name="Запросы POST, GET, PUT, DELETE">
+        <classes>
+            <class name="api.APITest"/>
+        </classes>
+    </test>
+</suite>
+

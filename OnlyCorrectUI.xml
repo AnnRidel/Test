@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Тесты UI">
+    <test name="Тесты регистрации и авторизации">
+        <classes>
+            <class name="ui.UITest">
+                <methods>
+                    <include name="logIn"/>
+                    <include name="logOut"/>
+                    <include name="createAcc"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Тесты API + UI">
+    <test name="Запросы POST, GET, PUT, DELETE и тесты регистрации и авторизации">
+        <classes>
+            <class name="api.APITest"/>
+            <class name="ui.UITest"/>
+        </classes>
+    </test>
+</suite>
+
